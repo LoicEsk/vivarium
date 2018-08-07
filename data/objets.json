@@ -1,0 +1,23 @@
+[
+	{
+		"type": 1,
+		"position" : {"x": 0, "y": 0},
+		"rayon": 40
+	},
+	{
+		"type": 2,
+		"position" : {"x": 0, "y": 200},
+		"rayon": 5,
+		"reserve": 100,
+		"intervalRun": 600,
+		"apport": 80
+	},
+	{
+		"type": 2,
+		"position" : {"x": 600, "y": 60},
+		"rayon": 30,
+		"reserve": 200,
+		"intervalRun": 1800,
+		"apport": 300
+	}
+]

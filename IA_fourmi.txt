@@ -1,0 +1,36 @@
+// IA fourmi ouvrière
+
+La fourmi puise dans ses réserves. 
+Chaque fourmi a une réserve d'énergie reconstitué à chaque passage par la fourmilière.
+
+Si elle n'a plus de réserve, elle est morte. Rideau. 
+
+Sentir les phéromones
+	Le centre de détection est décallé un peu devant la fourmi. C'était pour aider à suivre les pistes. Peut être que ce n'est plus utile avec la lecture du sens des phéromones.
+	On récupère une phéromone de chaque type perçu dont la position et la force correspond à l'ensemble pondéré en fonction de la perception.
+	On récupère aussi le sens de la phéromone la plus proche par type.
+
+Recherche s'il y a des objets en vues.
+
+Déterminer l'état de la fourmi en fonction des phéromones
+	Si phéromone de demande d'aide -> etat coup de main.
+	etc.
+	En fait plus le numéro est élevé, plus la phéromone est importante.
+	Si jamais la réserve d'énergie passe en dessou du seuil d'alerte, on rentre.
+
+Determiner la direction en fonction de l'état
+	Si rien de particulier on expore
+	Si phéromone de demande d'aide on y va
+	...
+
+Calcul de la nouvelle direction en faisant la moyen de la direction actuelle, celle déterminée par les phéromones et celle detuite de la phéromone retenu la plus proche.
+(On ne peut pas faire de moyenne d'angle simplement. J'ai utilisé la trigo)
+
+S'il y a un objet dans le coin on regarde si ce n'est pas ce que cherche la fourmi (en fonction de de l'état). S'il y en a un on y va.
+
+Déplacement de la fourmi
+
+Détéction de collision
+	Interaction avec l'objet (fourmilière, ressource)
+
+Voilà. C'est tout.

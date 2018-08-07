@@ -1,0 +1,30 @@
+{
+  "name": "vivarium",
+  "preferGlobal": true,
+  "version": "0.3.0",
+  "author": "",
+  "description": "",
+  "contributors": [ 
+    {
+      "name": "",
+      "email": ""
+    } 
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies" : {
+    "configure"   :  "*",
+    "express" :  "*",
+    "rebuild" :  "*",
+    "node-gyp"    :  "*",
+    "microtime" :  "*",
+    "socket.io" :  "*",
+    "extend" : "*",
+    "game-loop-dispatch" : "*"
+  },
+  "analyze": false,  
+  "engines": {
+    "node": ">=0.8"
+  }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width" />
+		<title>Vivarium beta</title>
+		<link rel="stylesheet" type="text/css" href="game.css" />
+	</head>
+
+	<body>
+		<header>
+			<nav id="mainMenu">
+				<ul>
+					<li><a href="http://home.eskell.fr">Home</a></li>
+					<li><a href="http://home.eskell.fr/vivarium/help/">Help !</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="warperGame">
+			<canvas id="canvas"></canvas>
+			<div id="fourmis">
+				<div id="fourmis-T1"></div>
+				<div id="fourmis-T2"></div>
+			</div>
+			<div id="zone-message"></div>
+			
+		</div>
+		<!- scripts JS ->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/kinetic-v5.0.1.min.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="js/fourmis_v0.1.js"></script>
+		<script src="js/main_v0.3.js"></script>
+	</body>
+</html>

@@ -1,0 +1,88 @@
+[
+	{
+		"clan": 1,
+		"type" : 1,
+		"position" : {"x": 0, "y": 0, "sens": 0},
+		"vitesse": 1,
+		"nom": "Reine",
+		"prodLaps": 20
+	},
+	{
+		"clan": 1,
+		"type" : 2,
+		"position" : {"x": -20, "y": 0, "sens": 0},
+		"vitesse": 1,
+		"odorat": 10,
+		"nom": "Hubert"
+	},
+	{
+		"clan": 1,
+		"type" : 2,
+		"position" : {"x": 0, "y": -20, "sens": 1.5},
+		"vitesse": 1,
+		"odorat": 10,
+		"nom": "Robert"
+	},
+	{
+		"clan": 1,
+		"type" : 2,
+		"odorat": 40,
+		"position" : {"x": 20, "y": 0, "sens": 0.5},
+		"vitesse": 1,
+		"odorat": 10,
+		"nom": "Josette",
+		"energie": 120
+	},
+	{
+		"clan": 1,
+		"type" : 2,
+		"position" : {"x": 0, "y": 20, "sens": -2},
+		"vitesse": 1,
+		"nom": "Patrick",
+		"odorat": 10,
+		"energie": 200
+	},
+	{
+		"clan": 1,
+		"type" : 2,
+		"position" : {"x": 0, "y": 0, "sens": 0},
+		"vitesse": 1,
+		"nom": "Andre",
+		"odorat": 10,
+		"energie": 300
+	},
+	{
+		"clan": 1,
+		"type" : 2,
+		"position" : {"x": 0, "y": 0, "sens": 1},
+		"vitesse": 1,
+		"nom": "Géralidine",
+		"odorat": 10,
+		"energie": 250
+	},
+	{
+		"clan": 1,
+		"type" : 2,
+		"position" : {"x": 0, "y": 0, "sens": 2},
+		"vitesse": 1,
+		"nom": "Roger",
+		"odorat": 10,
+		"energie": 250
+	},
+	{
+		"clan": 1,
+		"type" : 2,
+		"position" : {"x": 0, "y": 0, "sens": 3},
+		"vitesse": 1,
+		"nom": "Michelle",
+		"odorat": 10,
+		"energie": 200
+	},
+	{
+		"clan": 1,
+		"type" : 2,
+		"position" : {"x": 0, "y": 0, "sens": 5},
+		"energie": 250,
+		"nom": "clone"
+	}
+]

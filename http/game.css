@@ -1,0 +1,76 @@
+/*
+	CSS pour l'interface de jeu
+	version 0.1
+
+*/
+
+/* viewport CSS */
+@-webkit-viewport{
+    width: device-width;
+}
+@-moz-viewport{
+    width: device-width;
+}
+@-ms-viewport{
+    width: device-width;
+}
+@-o-viewport{
+    width: device-width;
+}
+@viewport{
+    width: device-width;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#mainMenu ul{
+	list-style-type: none;
+	font-size: 1.5em;
+}
+#mainMenu li{
+	float: left;
+	padding: 0em 2em 0em 0em;
+}
+
+#warperGame{
+	width: 100%;
+	clear: both;
+	position: relative;
+}
+
+#canvas {
+	position: fixed;
+	top: 60px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+
+	border-style:solid;
+	border-width: 1px;
+	width: 100%;
+	height: 600px;
+	z-index: 1;
+	border: 0;
+}
+#fourmis{
+	position: absolute;
+	left: 0;
+	z-index: 10;
+}
+
+#zone-message{
+	position: fixed;
+	top: 0;
+	right: 0;
+	height: auto;
+	z-index: 50;
+}
+#zone-message div{
+	color: black;
+	padding: 1em;
+	background-color: #CCC;
+	border-radius: 0.5em; 
+}
