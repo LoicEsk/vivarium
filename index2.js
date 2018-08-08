@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var GameLoopDispatch = require('game-loop-dispatch');
 var Objet = require('./classes/Objet');
 var Monde = require('./classes/Monde');
@@ -14,7 +16,7 @@ var gameLoop = new GameLoopDispatch({
     'interval':100
 });
 
-var monde = new Monde(600, 20, 1000, 1000);
+var monde = new Monde(60, 20, 1000, 1000);
 monde.generate();
 var t = process.hrtime();
 gameLoop.tick = function(){
@@ -69,4 +71,3 @@ io.sockets.on('connection', function (socket) {
         // sauvegarde
     })
 });
-

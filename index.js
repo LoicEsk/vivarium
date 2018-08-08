@@ -1,4 +1,6 @@
-/*	
+#!/usr/bin/env node
+
+/*
 	Script de lancement du vivarium
     vession 0.1
 */
@@ -68,4 +70,3 @@ io.sockets.on('connection', function (socket) {
 });
 
 // test des evements
-
